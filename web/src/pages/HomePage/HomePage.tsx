@@ -14,8 +14,6 @@ const HomePage = () => {
     setInput(data)
   }
 
-  console.log('THE KEY: ', process.env.WEATHER_API_KEY)
-
   return (
     <>
       <h1>Get My Weather</h1>

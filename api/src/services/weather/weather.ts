@@ -9,7 +9,8 @@ interface QueryObject {
   data: string
 }
 
-const apiKey = process.env.WEATHER_API_KEY
+// const apiKey = process.env.WEATHER_API_KEY
+const apiKey = 'b7c4f0e3259c88fbd5a3e4110d7912ba'
 
 export const getWeather = async (queryObject: QueryObject) => {
   let queryUrl: string
